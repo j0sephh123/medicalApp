@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  font-family: 'Slabo 27px', serif;
+} // font
+
+ul{
+  display: flex;
+  border: 1px solid black;
+  li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+} // navbar

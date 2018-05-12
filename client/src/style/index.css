@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+body {
+  font-family: 'Slabo 27px', serif;
+}
+
+ul {
+  display: flex;
+  border: 1px solid black;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */
