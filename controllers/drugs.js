@@ -33,6 +33,7 @@ exports.drugs_get_all = (req, res, next) => {
 
 
 exports.drugs_create_drug = (req, res, next) => {
+  console.log(req.body);
   Group.findById(req.body.groupId)
     .then(group => {
       if (!group) {
